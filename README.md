@@ -67,7 +67,3 @@ npx create-next-app ai-interview --example "https://github.com/WorqHat/AI-Interv
 ## How it all works
 
 The app is built with Next.js and Tailwind CSS. It uses WorqHat's Speech-to-Text API to transcribe the audio from the webcam. It then uses WorqHat's Content Generation API to generate feedback for the Interviewee using AiCon V2 Text Models. The feedback is then displayed on the screen. This project can be further modified to create the mock interview simulator of your dreams by adding your own questions and difficulty levels.
-
-## Author
-
-- Sagnik Ghosh ([@sagnik_ghosh_11](https://twitter.com/sagnik_ghosh_11)) – [WorqHat](https://worqhat.com)
