@@ -1,0 +1,25 @@
+name: Deploy Next.js Node.js Project
+
+on:
+  push:
+    branches:
+      - main  # Change this to your main branch name
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy
+        run: |
+          # Add your deployment commands here, for example:
+          # npm run deploy
